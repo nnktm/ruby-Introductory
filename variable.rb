@@ -7,3 +7,5 @@ puts age
 puts hobby
 
 puts name + " is " + age.to_s + " years old and likes " + hobby + "."
+
+puts "#{name} is #{age} years old and likes #{hobby}."
