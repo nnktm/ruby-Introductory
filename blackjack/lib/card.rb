@@ -1,4 +1,5 @@
 class Card
+    #suitとrankを読み込む
     attr_reader :suit, :rank
 
     def initialize(suit, rank)
